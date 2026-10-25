@@ -11,3 +11,7 @@ captures/
 *.pt
 *.onnx
 *.tflite
+
+# Local dataset backup not required in public repo
+dataset_backup_20260925_023110/
+
