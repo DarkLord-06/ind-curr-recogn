@@ -35,7 +35,7 @@ Also add empty camera/background images with matching empty `.txt` files to `tra
 
 ## Setup and run
 
-Your machine has an NVIDIA RTX 4060, but the current virtual environment has a CPU-only PyTorch build. Install the CUDA-enabled PyTorch wheel before training. Your NVIDIA driver supports CUDA 13.0 wheels:
+My machine has an NVIDIA GPU, but the current virtual environment had an CPU-only PyTorch build. Install the CUDA-enabled PyTorch wheel before training. My NVIDIA driver supported CUDA 13.0 wheels:
 
 ```powershell
 .\.venv\Scripts\Activate.ps1
