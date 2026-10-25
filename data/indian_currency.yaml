@@ -1,0 +1,18 @@
+# Roboflow YOLO Oriented Bounding Box (OBB) dataset.
+# Each label: class_id x1 y1 x2 y2 x3 y3 x4 y4 (normalised polygon vertices).
+# Absolute path prevents Ultralytics resolving a relative path from the shell's
+# working directory (for example, Desktop instead of this project).
+path: C:/Users/tgmad/PycharmProjects/CurrencyRecogn/dataset
+train: training
+val: validation
+test: test
+
+names:
+  0: INR_2000
+  1: INR_10
+  2: INR_100
+  3: INR_20
+  4: INR_200
+  5: INR_5
+  6: INR_50
+  7: INR_500

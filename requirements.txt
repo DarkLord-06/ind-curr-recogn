@@ -1,0 +1,6 @@
+ultralytics>=8.3.0
+opencv-python>=4.10.0
+tensorflow>=2.16.0
+PyYAML>=6.0
+# 2.99 has a Windows SAPI regression: only the first utterance is audible.
+pyttsx3==2.98

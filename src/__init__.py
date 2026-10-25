@@ -1,0 +1,1 @@
+"""Indian currency recognition application."""
